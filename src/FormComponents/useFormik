@@ -1,0 +1,10 @@
+const formik = useFormik({
+  initialValues: {
+    email: '',
+  },
+  validationSchema: validationSchema,
+  onSubmit: (values) => {
+    // Handle form submission here
+    console.log(values);
+  },
+});
